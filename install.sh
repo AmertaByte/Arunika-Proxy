@@ -14,6 +14,7 @@ fi
 wget -q https://github.com/AmertaByte/Arunika-Proxy/raw/main/proxy_linux
 sleep 1
 echo -e "${GREEN}Proxy Installed${ENDCOLOR}"
+sleep 1
 echo -e "${GREEN}Executing Proxy...${ENDCOLOR}"
 sleep 5
 chmod +x proxy_linux
