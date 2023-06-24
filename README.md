@@ -7,5 +7,6 @@ Arunkia is a Growtopia Proxy for Android / Linux (Free Proxy)
 * paste this `pkg update && pkg upgrade && pkg install wget openssl curl libenet && wget  https://github.com/AmertaByte/Arunika-Proxy/raw/main/install.sh && bash install.sh`
 * Key? [Join Discord Server](https://discord.gg/hC7HPpHTRT)
 
-# CREDIT 
+# Thanks to
 * [Nubiza](https://github.com/nubiza)
+* [HertzxD(https://github.com/HertzxD)
