@@ -11,7 +11,7 @@ if [ -f "proxy_linux" ]; then
     sleep 1
     echo -e "${GREEN}Updating proxy...${ENDCOLOR}"
 fi
-wget -q https://github.com/AmertaByte/arunika/raw/main/proxy_linux
+wget -q https://github.com/AmertaByte/Arunika-Proxy/raw/main/proxy_linux
 sleep 1
 echo -e "${GREEN}Proxy Installed${ENDCOLOR}"
 echo -e "${GREEN}Executing Proxy...${ENDCOLOR}"
