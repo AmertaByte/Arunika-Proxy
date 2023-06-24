@@ -2,6 +2,7 @@ RED="\e[1;31m"
 GREEN="\e[1;32m"
 ENDCOLOR="\e[0m"
 
+rm install*
 clear
 echo -e "${GREEN}Installing Proxy...${ENDCOLOR}"
 sleep 1
