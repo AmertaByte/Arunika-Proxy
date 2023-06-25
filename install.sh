@@ -7,15 +7,15 @@ echo -e "${GREEN}Installing Proxy...${ENDCOLOR}"
 sleep 1
 if [ -f "proxy_linux" ]; then
     echo -e "${RED}Deleting old proxy...${ENDCOLOR}"
-    rm proxy_linux
+    rm arunika
     sleep 1
     echo -e "${GREEN}Updating proxy...${ENDCOLOR}"
 fi
-wget -q https://github.com/AmertaByte/Arunika-Proxy/raw/main/proxy_linux
+wget -q https://github.com/AmertaByte/Arunika-Proxy/raw/main/arunika
 sleep 1
 echo -e "${GREEN}Proxy Installed${ENDCOLOR}"
 sleep 1
 echo -e "${GREEN}Executing Proxy...${ENDCOLOR}"
 sleep 5
-chmod +x proxy_linux
-./proxy_linux
+chmod +x arunika
+./arunika
