@@ -5,7 +5,7 @@ ENDCOLOR="\e[0m"
 clear
 echo -e "${GREEN}Installing Proxy...${ENDCOLOR}"
 sleep 1
-if [ -f "proxy_linux" ]; then
+if [ -f "arunika" ]; then
     echo -e "${RED}Deleting old proxy...${ENDCOLOR}"
     rm arunika
     sleep 1
