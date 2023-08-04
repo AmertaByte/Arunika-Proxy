@@ -11,6 +11,7 @@ if [ -f "arunika" ]; then
     sleep 1
     echo -e "${GREEN}Updating proxy...${ENDCOLOR}"
 fi
+pkg install wget
 wget -q https://github.com/AmertaByte/Arunika-Proxy/raw/main/arunika
 sleep 1
 echo -e "${GREEN}Proxy Installed${ENDCOLOR}"
