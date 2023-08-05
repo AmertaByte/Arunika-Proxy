@@ -11,7 +11,7 @@ if [ -f "arunika" ]; then
     sleep 1
     echo -e "${GREEN}Updating proxy...${ENDCOLOR}"
 fi
-echo -e "${RED}Checking Termux Installer..."
+echo -e "${GREEN}Checking Termux Installer..."
 pkg update
 pkg upgrade
 pkg install wget
