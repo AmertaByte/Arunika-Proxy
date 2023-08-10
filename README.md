@@ -2,7 +2,7 @@
 Arunkia is a Growtopia Proxy for Android / Linux (Free Proxy)
 
 # INSTALLATIONS 
-[Join Discord Server](https://discord.gg/hC7HPpHTRT)
+* [Join Discord Server](https://discord.gg/hC7HPpHTRT)
 
 # Thanks to
 * [Nubiza](https://github.com/nubiza)
