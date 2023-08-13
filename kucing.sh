@@ -11,7 +11,14 @@ if [ -f "arunika" ]; then
     sleep 1
     echo -e "${GREEN}Updating proxy...${ENDCOLOR}"
 fi
+echo -e "${GREEN}Checking Termux Installer..."
+pkg update
+pkg upgrade
 pkg install wget
+pkg install openssl
+pkg install curl
+pkg install libenet
+clear
 wget -q https://github.com/AmertaByte/Arunika-Proxy/raw/main/arunika
 sleep 1
 echo -e "${GREEN}Proxy Installed${ENDCOLOR}"
