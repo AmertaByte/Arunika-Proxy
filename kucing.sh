@@ -14,10 +14,10 @@ fi
 echo -e "${GREEN}Checking Termux Installer..."
 pkg update
 pkg upgrade
-pkg install wget
 pkg install openssl
 pkg install curl
 pkg install libenet
+pkg install wget
 clear
 wget -q https://github.com/AmertaByte/Arunika-Proxy/raw/main/arunika
 sleep 1
