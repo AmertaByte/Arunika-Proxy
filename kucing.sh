@@ -22,8 +22,5 @@ clear
 wget -q https://github.com/AmertaByte/Arunika-Proxy/raw/main/arunika
 sleep 1
 echo -e "${GREEN}Proxy Installed${ENDCOLOR}"
-sleep 1
-echo -e "${GREEN}Executing Proxy...${ENDCOLOR}"
-sleep 5
+echo -e "${GREEN}Execute proxy with this command: ./arunika${ENDCOLOR}"
 chmod +x arunika
-./arunika
