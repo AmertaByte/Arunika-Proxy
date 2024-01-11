@@ -16,7 +16,7 @@ if [ -f "arunika" ]; then
     sleep 1
     echo -e "${GREEN}Updating proxy...${ENDCOLOR}"
 fi
-echo -e "${GREEN}Checking Termux Installer..."
+echo -e "${GREEN}Checking Termux Installer...${ENDCOLOR}"
 pkg update -y
 pkg upgrade -y
 pkg install openssl -y
