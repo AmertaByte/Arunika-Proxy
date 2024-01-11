@@ -3,6 +3,11 @@ GREEN="\e[1;32m"
 ENDCOLOR="\e[0m"
 
 clear
+bito=$(getprop ro.product.cpu.abi)
+if [[ "$bito" != "arm64-v8a" && "$bito" != "x86_64" ]]; then
+  echo -e "${RED}Sorry, Your device is 32-bit, The proxy does not support 32-bit device.${ENDCOLOR}"
+  exit 1
+fi
 echo -e "${GREEN}Installing Proxy...${ENDCOLOR}"
 sleep 1
 if [ -f "arunika" ]; then
