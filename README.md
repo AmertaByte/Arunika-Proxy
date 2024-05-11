@@ -11,3 +11,4 @@ Arunkia is a Free Growtopia Proxy for Android / Linux
 * [Gucktubeyt](https://github.com/gucktubeyt)
 * [ama6nen](https://github.com/ama6nen)
 * [fakemodz](https://github.com/fakemodz)
+* [badewen aka bang roti aoka](https://github.com/badewen)
