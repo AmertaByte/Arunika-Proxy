@@ -1,5 +1,5 @@
 # Arunika-Proxy 
-Arunkia is a Free Growtopia Proxy for Android / Linux
+Arunkia is a Growtopia Proxy for Android
 
 # INSTALLATIONS 
 <-- Join Discord Server -->
